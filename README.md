@@ -10,6 +10,19 @@ CLI password generator
 passwdgen <length> [--uppercase] [--numbers] [--specials]
 ```
 
+Examples
+
+```text
+ ~/P/g/passwdgen    passwdgen 8
+lcjwaiad
+ ~/P/g/passwdgen    passwdgen 15 --uppercase
+LNbchmDxYvQrDfs
+ ~/P/g/passwdgen    passwdgen 15 --uppercase --specials
+VyYHgw!b-]wxUGs
+ ~/P/g/passwdgen    passwdgen 15 --uppercase --specials --numbers
+.=.oIzACeV9J.q?
+```
+
 ## Build
 
 ```text
